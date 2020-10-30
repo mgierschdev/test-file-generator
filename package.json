@@ -1,0 +1,26 @@
+{
+  "name": "test-file-generator",
+  "version": "1.0.0",
+  "description": "Generates different file types for testing purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Maximiliam Gierschmann",
+  "license": "MIT",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pacmax2/file-generator.git"
+  },
+  "keywords": [
+    "File",
+    "generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/pacmax2/file-generator/issues"
+  },
+  "homepage": "https://github.com/pacmax2/file-generator#readme"
+}
