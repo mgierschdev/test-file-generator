@@ -102,3 +102,14 @@ dist
 
 # TernJS port file
 .tern-port
+
+#yarn lock
+yarn.lock
+
+# generated files output directory
+test/*.txt
+
+node_modules
+/lib
+package-lock.json
+.DS_Store
