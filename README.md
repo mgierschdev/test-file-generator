@@ -4,9 +4,11 @@ This is a simple module to generate many different random files, which could be 
 
 Currently supported formats (**jpeg**, **gif**, **cvs** and **txt**).
 
-![alt text](https://github.com/pacmax2/test-file-generator/main/exampleOutput/9v4qvs9619i.gif?raw=true)
+|  Image  | Gif | 
+| --------- | --------- | 
+![alt text](https://github.com/pacmax2/test-file-generator/blob/main/exampleOutput/dsfuiak7qg9.png?raw=true) | ![alt text](https://github.com/pacmax2/test-file-generator/blob/main/exampleOutput/9v4qvs9619i.gif?raw=true)
 
-![alt text](https://github.com/pacmax2/test-file-generator/main/exampleOutput/dsfuiak7qg9.png?raw=true)
+For other examples on random cvs / txt check the exampleOutput folder.
 
 ##  How to use:
 
@@ -54,7 +56,7 @@ Currently supported formats (**jpeg**, **gif**, **cvs** and **txt**).
 11 |  getFileType()  | None | **string** | This method gets the file type. |
 
 # License
-MIT
+**MIT**
 
-## Issues, errors, requests or contributions
+# Issues, errors, requests or contributions
 [**Open an issue here**](https://github.com/pacmax2/file-generator/issues)
