@@ -2,8 +2,8 @@
   "name": "test-file-generator",
   "version": "1.0.0",
   "description": "Generates different file types for testing purposes. The content of the files is generated with a random function.",
-  "main": "lib/index.js",
-  "types": "lib/index.d.ts",
+  "main": "lib/classes/TestFileGenerator.js",
+  "types": "lib/classes/TestFileGenerator.d.ts",
   "author": "M-G",
   "license": "MIT",
   "scripts": {
@@ -24,6 +24,10 @@
   "keywords": [
     "File",
     "generator",
+    "javascript",
+    "typescript",
+    "nodejs",
+    "random",
     "JPEG",
     "GIF",
     "CVS",

@@ -14,6 +14,12 @@ For other examples on random cvs / txt check the exampleOutput folder.
 
 * Install ```npm install test-file-generator``` or ```yarn install test-file-generator```
 * Include in your project 
+  
+```typescript
+import { TestFileGenerator } from 'test-file-generator';
+let generator = new TestFileGenerator('txt');
+generator.generateFile();
+```
 
 1. To generate one txt file and random name, at the default path "**./**". 
 ```typescript

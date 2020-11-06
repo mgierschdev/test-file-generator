@@ -58,5 +58,4 @@ it('Creates a new Gif of 200 x 200', () => {
   generator.setLocation('exampleOutput/');
   generator.setClean(true);
   expect(generator.generateFile()).toBe(true);
-  console.log('finished');
 });
