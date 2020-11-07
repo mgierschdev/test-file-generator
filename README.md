@@ -1,6 +1,6 @@
 # Test file generator
 
-This is a simple module to generate many different random files, which could be used for testing other algorthms that work with files. 
+This is a simple module to generate many different random files, which could be used for testing other algorithms that work with files. 
 
 Currently supported formats (**jpeg**, **gif**, **cvs** and **txt**).
 
@@ -51,7 +51,7 @@ generator.generateFile();
 1 |  new TestFileGenerator(type: string, name?: string, location?: string, size?: number, clean?: boolean) | [**required**] type : string <br> [**optional**] name: string <br> [**optional**] location: string <br> [**optional**] size: number <br> [**optional**] clean: boolean  | **TestFileGenerator** object | The constructor of the object. The default values for the optional parameters are: (name = **'random'**, location = '**'./'**', size = **20**, clean = **false**), and even though not passed in the constructor for the images is **(100, 100)**.|
 2 |  generateFile() | None | **boolean** (true if created, false otherwise) | This method generates the file with the specified parameters. |
 3 |  setLocation(location: string)  | **string** | None | This method sets the location on which the file is going to be written. |
-4 |  setName(location: string)  | **string** | None | This method sets the name of the file. If not specified the file will have a random name which you canget with getName(). |
+4 |  setName(location: string)  | **string** | None | This method sets the name of the file. If not specified the file will have a random name which you can get with getName(). |
 5 |  setType(type: string)  | **string** | None | This method sets the file type, currently supported (**jpeg**, **gif**, **cvs** and **txt**), lowercased. |
 6 |  setSize(size: number)  | **number** | None | This method sets the size that the file should have, currently only works for **txt** and **cvs** file types. |
 6 |  setImageSize((x: **number**, y: **number**)  | **number**, **number** | None | This method sets the size of the **jpeg** or **gif** to be generated. |
