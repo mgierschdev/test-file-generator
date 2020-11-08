@@ -41,8 +41,6 @@ generator.generateFile();
   generator.setSize(3000);
   generator.setName('my_file_name');
   generator.generateFile();
-});
-  generator.generateFile();
 ```
 
 ## API: 
