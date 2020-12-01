@@ -15,4 +15,4 @@ const argv = yargs(process.argv.slice(2))
 const generator = new TestFileGenerator(argv.type);
 generator.setLocation(argv.path);
 generator.generateFile();
-console.log("File created "+generator.getCreated())
+console.log('File created ' + generator.getCreated());

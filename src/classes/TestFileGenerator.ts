@@ -160,9 +160,9 @@ export class TestFileGenerator {
     return Buffer.byteLength(data) / 1024;
   }
 
-	getCreated(): string[]  {
-		return this.created;
-	}
+  getCreated(): string[] {
+    return this.created;
+  }
 
   getLocation(): string {
     return this.location;
