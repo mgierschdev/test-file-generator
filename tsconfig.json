@@ -3,12 +3,12 @@
       "target": "es6",
       "module": "commonjs",
       "declaration": true,
-      "outDir": "./lib",
+      "outDir": "./lib/",
       "strict": true,
       "strictNullChecks": false,
       "noImplicitAny": false,
       "esModuleInterop": true
     },
-    "include": ["src"],
+    "include": ["src/index.ts", "./src"],
     "exclude": ["node_modules", "**/__tests__/*"]
   }
