@@ -10,7 +10,16 @@ Currently supported formats (**jpeg**, **gif**, **cvs** and **txt**).
 
 For other examples on random cvs / txt check the exampleOutput folder.
 
-##  How to use:
+##  How to use from command line:
+
+```bash
+npm install -g test-file-generator    
+
+generate --help
+
+generate 
+```
+##  How to use on your project:
 
 * Install ```npm install test-file-generator``` or ```yarn install test-file-generator```
 * Include in your project 
