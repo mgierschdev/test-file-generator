@@ -30,6 +30,8 @@ export class TestFileGenerator {
   }
 
   generateFile(): boolean {
+    this.created.push(this.completeLocation);
+
     switch (this.type) {
       case FileType.cvs: {
         return this.generateCVS();
@@ -79,8 +81,6 @@ export class TestFileGenerator {
       .then(() => {
         if (this.clean) {
           fs.unlinkSync(this.completeLocation);
-        } else {
-          this.created.push(this.completeLocation);
         }
       })
       .catch((error: any) => {
@@ -149,8 +149,6 @@ export class TestFileGenerator {
       fs.writeFileSync(this.completeLocation, data);
       if (this.clean) {
         fs.unlinkSync(this.completeLocation);
-      } else {
-        this.created.push(this.completeLocation);
       }
       return true;
     } catch (error) {
@@ -161,6 +159,10 @@ export class TestFileGenerator {
   private getMemorySize(data: string): number {
     return Buffer.byteLength(data) / 1024;
   }
+
+	getCreated(): string[]  {
+		return this.created;
+	}
 
   getLocation(): string {
     return this.location;
