@@ -18,5 +18,6 @@ generator.setLocation(argv.path);
 
 for (let i = 0; i < Number(argv.number); i++) {
   generator.generateFile();
-  console.log('File created ' + generator.getCreated());
 }
+
+console.log('Files created ' + generator.getCreated());

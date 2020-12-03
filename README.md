@@ -62,7 +62,7 @@ generator.generateFile();
 ## API: 
 |  #  | Method | Input / Type | Output / Type | Description
 |-----|---------------- | --------------- | --------------- | --------------- |
-1 |  new TestFileGenerator(type: string, name?: string, location?: string, size?: number, clean?: boolean) | [**required**] type : string <br> [**optional**] name: string <br> [**optional**] location: string <br> [**optional**] size: number <br> [**optional**] clean: boolean  | **TestFileGenerator** object | The constructor of the object. The default values for the optional parameters are: (name = **'random'**, location = '**'./'**', size = **20**, clean = **false**), and even though not passed in the constructor for the images is **(100, 100)**.|
+1 |  new TestFileGenerator(type: string, clean?: boolean) | [**required**] type : string <br> [**optional**] name: string <br> [**optional**] location: string <br> [**optional**] size: number <br> [**optional**] clean: boolean  | **TestFileGenerator** object | The constructor of the object. The default values for the optional parameters are: (name = **'random'**, location = '**'./'**', size = **20**, clean = **false**), and even though not passed in the constructor for the images is **(100, 100)**. If you want to modify any parameter just use setter methods.|
 2 |  generateFile() | None | **boolean** (true if created, false otherwise) | This method generates the file with the specified parameters. |
 3 |  setLocation(location: string)  | **string** | None | This method sets the location on which the file is going to be written. |
 4 |  setName(location: string)  | **string** | None | This method sets the name of the file. If not specified the file will have a random name which you can get with getName(). |
