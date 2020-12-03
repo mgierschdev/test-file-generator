@@ -19,7 +19,14 @@ generate --help
 
 generate 
 ```
-##  How to use on your project:
+
+If you want to generate more than one file
+```bash
+
+generate -number 10
+
+```
+##  How to use from your project:
 
 * Install ```npm install test-file-generator``` or ```yarn install test-file-generator```
 * Include in your project 

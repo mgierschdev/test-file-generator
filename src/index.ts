@@ -10,9 +10,13 @@ const argv = yargs(process.argv.slice(2))
   .options({
     path: { type: 'string', default: './', description: 'default ./', alias: 'path' },
     type: { choices: filesTypes, default: 'jpeg' },
+    number: { type: 'number', default: '1' },
   }).argv;
 
 const generator = new TestFileGenerator(argv.type);
 generator.setLocation(argv.path);
-generator.generateFile();
-console.log('File created ' + generator.getCreated());
+
+for (let i = 0; i < Number(argv.number); i++) {
+  generator.generateFile();
+  console.log('File created ' + generator.getCreated());
+}
