@@ -1,6 +1,6 @@
 {
   "name": "test-file-generator",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Generates different file types for testing purposes. The content of the files is generated with a random function.",
   "main": "lib/index.js",
   "types": "lib/index.ts",

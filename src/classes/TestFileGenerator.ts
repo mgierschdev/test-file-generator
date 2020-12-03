@@ -21,15 +21,15 @@ export class TestFileGenerator {
   private sizeX: number = 100;
   private sizeY: number = 100;
 
-  constructor(type: string, name?: string, location?: string, size?: number, clean?: boolean) {
-    this.setName(name);
+  constructor(type: string, clean?: boolean) {
     this.setType(type);
-    this.setLocation(location);
-    this.setSize(size);
+    this.setLocation();
+    this.setSize();
     this.clean = clean;
   }
 
   generateFile(): boolean {
+    this.setName(name);
     this.created.push(this.completeLocation);
 
     switch (this.type) {
