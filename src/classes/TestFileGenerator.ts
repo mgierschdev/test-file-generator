@@ -30,7 +30,7 @@ export class TestFileGenerator {
   }
 
   generateFile(): boolean {
-    this.setName(this.name);
+    this.setName();
     this.created.push(this.completeLocation);
 
     switch (this.type) {
