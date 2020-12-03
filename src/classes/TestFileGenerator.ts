@@ -22,6 +22,7 @@ export class TestFileGenerator {
   private sizeY: number = 100;
 
   constructor(type: string, clean?: boolean) {
+    this.setName(this.name);
     this.setType(type);
     this.setLocation();
     this.setSize();
@@ -29,7 +30,7 @@ export class TestFileGenerator {
   }
 
   generateFile(): boolean {
-    this.setName(name);
+    this.setName(this.name);
     this.created.push(this.completeLocation);
 
     switch (this.type) {
