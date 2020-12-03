@@ -23,7 +23,7 @@ generate
 If you want to generate more than one file
 ```bash
 
-generate -number 10
+generate --number 10
 
 ```
 ##  How to use from your project:
